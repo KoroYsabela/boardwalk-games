@@ -95,6 +95,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#student-disc {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Game Library */
 
 #new-games .card,
@@ -148,9 +156,9 @@ h2 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-} 
+} */
 
-/* Media queries */
+/* Media queries 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
