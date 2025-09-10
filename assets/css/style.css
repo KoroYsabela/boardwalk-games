@@ -97,19 +97,6 @@ h2 {
 
 /* Events */
 
-#student-disc {
-    /* border: 1px solid var(--highlight-color); */
-    background-color: var(--highlight-color);
-    color: white;
-}
-
-#student-disc p {
-    border: 1px solid var(--highlight-color);
-    margin: 0;
-    padding: 3px;
-    text-align: center;
-}
-
 /* Game Library */
 
 #new-games .card,
@@ -167,12 +154,39 @@ h2 {
 
 /* Media queries 
 
+/* Small devices (tablets, 768px and below) */
+@media screen and (max-width: 768px) {
+
+    /* Make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+
+    #student-disc p {
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 0;
+        padding: 3px;
+        text-align: center;
+    }
+
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
     }
+
+    #student-disc strong {
+        background-color: var(--highlight-color);
+        color: white;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
 }
 
 /* Large devices (tablets, 992px and up) */
@@ -197,7 +211,5 @@ h2 {
     #services .card-body {
         min-height: 195px;
     }
+
 }
-
-
-
