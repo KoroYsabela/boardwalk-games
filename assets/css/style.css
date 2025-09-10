@@ -30,7 +30,6 @@ h1,
 h2 {
    text-transform: uppercase; 
 }
-
 h2 {
     margin-bottom: 2rem;
 }
@@ -40,8 +39,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* prevent navbar overlap */
 }
 
 /* Buttons */
