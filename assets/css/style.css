@@ -203,6 +203,13 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+
+    /* #reserve-game {
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    } */
 }
 
 /* Extra-extra-large devices (tablets, 1400px and up) */
