@@ -155,7 +155,7 @@ h2 {
 /* Media queries 
 
 /* Small devices (tablets, 768px and below) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     /* Make all service cards the same height for consistency */
     #services .card-body {
