@@ -98,9 +98,16 @@ h2 {
 /* Events */
 
 #student-disc {
-    border: 2px solid var(--highlight-color);
+    /* border: 1px solid var(--highlight-color); */
     background-color: var(--highlight-color);
     color: white;
+}
+
+#student-disc p {
+    border: 1px solid var(--highlight-color);
+    margin: 0;
+    padding: 3px;
+    text-align: center;
 }
 
 /* Game Library */
