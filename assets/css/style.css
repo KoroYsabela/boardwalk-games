@@ -5,17 +5,22 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", sans-serif;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --light-highlight-color: #7a9fc2; /* light blue */
+    --primary-color: #3a2620;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --light-highlight-color: #7a9fc2;
+    /* light blue */
 }
 
 /* Global styles */
 
 body {
     font-family: var(--primary-font);
-    padding-top: 58px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 58px;
+    /* pushes the top of the header down under fixed navbar */
 }
 
 h1,
@@ -23,13 +28,14 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    
+
 }
 
 h1,
 h2 {
-   text-transform: uppercase; 
+    text-transform: uppercase;
 }
+
 h2 {
     margin-bottom: 2rem;
 }
@@ -39,7 +45,8 @@ h2 {
 }
 
 .section {
-    padding-top: 4rem; /* prevent navbar overlap */
+    padding-top: 4rem;
+    /* prevent navbar overlap */
 }
 
 /* Buttons */
@@ -58,8 +65,8 @@ h2 {
 
 .custom-button-outline {
     border: 2px solid var(--highlight-color);
-    padding: 7px 25px; 
-    color: var(--highlight-color); 
+    padding: 7px 25px;
+    color: var(--highlight-color);
 }
 
 .custom-button-outline:hover {
@@ -120,7 +127,7 @@ h2 {
 }
 
 #contact i {
-    color: car(--secondary-color);
+    color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
@@ -128,6 +135,8 @@ h2 {
 #contact .social-links i {
     color: var(--light-highlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out
 }
 
@@ -138,18 +147,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border:2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries 
 
@@ -173,6 +170,7 @@ h2 {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
@@ -190,6 +188,7 @@ h2 {
 
 /* Large devices (tablets, 992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
@@ -198,6 +197,7 @@ h2 {
 
 /* Extra-large devices (tablets, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
@@ -213,6 +213,7 @@ h2 {
 
 /* Extra-extra-large devices (tablets, 1400px and up) */
 @media screen and (min-width: 1400px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
